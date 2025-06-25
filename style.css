@@ -1,0 +1,142 @@
+/* Configurações gerais do site */
+body {
+  font-family: Arial, sans-serif; /* Fonte do texto */
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Cor de fundo */
+  color: black; /* Cor do texto */
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Coloca os elementos um abaixo do outro */
+}
+
+/* Cabeçalho */
+header {
+  padding: 1.5rem;
+  background-color: blue; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Rodapé */
+footer {
+  text-align: center; /* Centraliza o texto */
+  padding: 1.5rem;
+  background-color: black; /* Fundo preto */
+  color: white; /* Texto branco */
+}
+
+/* Menu de navegação */
+nav {
+  background-color: red; /* Fundo vermelho */
+  text-align: center; /* Centraliza os links */
+  padding: 1rem;
+}
+
+/* Links do menu */
+nav a {
+  color: black; /* Cor dos links */
+  margin: 0 15px; /* Espaçamento entre os links */
+  text-decoration: none; /* Tira o sublinhado */
+}
+
+/* Área principal */
+section {
+  flex: 1;
+  padding: 2rem;
+  background-color: white; /* Fundo branco */
+}
+
+/* Caixa dos projetos */
+.projeto {
+  background-color: white;
+  border: 1px solid #ccc; /* Borda cinza clara */
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+/* Texto da página Sobre Mim */
+.sobre-mim {
+  text-align: center; /* Centraliza o texto */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large; /* Deixa o texto maior */
+}
+
+/* Foto na página Sobre Mim */
+.minha-foto {
+  width: 300px; /* Largura da imagem */
+  height: auto; /* Altura automática para não deformar */
+}
+
+/* Área que junta foto e texto na página Sobre Mim */
+.meu-texto {
+  margin: 0;
+  height: 70vh;
+  display: flex; /* Deixa foto e texto lado a lado */
+  align-items: center; /* Centraliza na vertical */
+  justify-content: flex-start; /* Alinha à esquerda */
+  padding-left: 50px; /* Espaçamento à esquerda */
+  background-color: #f0f0f0; /* Fundo cinza claro */
+  gap: 20px; /* Espaço entre foto e texto */
+}
+
+/* Formulário de contato */
+.contato {
+  background: #fff; /* Fundo branco */
+  padding: 20px;
+  border-radius: 6px; /* Cantos arredondados */
+  width: 320px;
+  min-height: calc(79vh - 160px); /* Altura mínima */
+  font-family: sans-serif;
+}
+
+/* Cada linha do formulário */
+.campo {
+  display: flex;
+  align-items: center; /* Alinha na vertical */
+  margin-bottom: 10px;
+}
+
+/* Texto (label) dos campos */
+.campo label {
+  width: 70px; /* Largura do texto */
+  font-size: 14px;
+}
+
+/* Caixas de texto e área de mensagem */
+.campo input,
+.campo textarea {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 4px; /* Cantos arredondados */
+}
+
+/* Área de mensagem */
+.campo textarea {
+  resize: none; /* Não permite redimensionar */
+  height: 60px; /* Altura fixa */
+}
+
+/* Botão de enviar */
+button {
+  width: 100%;
+  padding: 8px;
+  background: black; /* Fundo preto */
+  color: white; /* Texto branco */
+  border: none;
+  border-radius: 4px; /* Cantos arredondados */
+  cursor: pointer; /* Muda o cursor quando passa por cima */
+}
+
+/* Efeito quando passa o mouse no botão */
+button:hover {
+  background: #333; /* Fica um pouco mais claro que o preto */
+}
+
+/* Texto da página Minha Formação */
+.formacao {
+  text-align: center; /* Centraliza o texto */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large; /* Deixa o texto maior */
+}

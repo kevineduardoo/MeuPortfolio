@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- Define que é um documento HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+
+<head> <!-- Cabeçalho invisível do site -->
+  <meta charset="UTF-8"> <!-- Define a codificação dos caracteres (acentuação, cedilha, etc.) -->
+  <title>Meu Contato</title> <!-- Título que aparece na aba do navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Conecta o arquivo de estilos CSS -->
+</head>
+
+<body> <!-- Corpo do site (parte visível) -->
+  <header> <!-- Cabeçalho da página -->
+    <h1>Meu Contato</h1> <!-- Título principal da página -->
+  </header>
+
+  <nav> <!-- Menu de navegação -->
+    <a href="index.html">Início</a> <!-- Link para a página inicial -->
+    <a href="sobremim.html">Sobre mim</a> <!-- Link para a página "Sobre mim" -->
+    <a href="minhaformacao.html">Minha formação</a> <!-- Link para a página "Minha formação" -->
+    <a href="meusprojetos.html">Meus projetos</a> <!-- Link para a página "Meus projetos" -->
+  </nav>
+
+ <form class="contato"> <!-- Formulário de contato -->
+    <div class="campo"> <!-- Campo para o nome -->
+      <label for="nome">Nome:</label> <!-- Texto que identifica o campo -->
+      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required> <!-- Caixa para digitar o nome -->
+    </div>
+
+    <div class="campo"> <!-- Campo para o e-mail -->
+      <label for="email">E-mail:</label> <!-- Texto que identifica o campo -->
+      <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required> <!-- Caixa para digitar o e-mail -->
+    </div>
+
+    <div class="campo"> <!-- Campo para a mensagem -->
+      <label for="mensagem">Mensagem:</label> <!-- Texto que identifica o campo -->
+      <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required></textarea> <!-- Área para escrever a mensagem -->
+    </div>
+
+    <button type="submit">Enviar</button> <!-- Botão para enviar o formulário -->
+</form>
+
+
+  <footer> <!-- Rodapé da página -->
+    <p>&copy; Kevin Eduardo</p> <!-- Direitos autorais -->
+  </footer>
+
+</body>
+</html> <!-- Fim da página -->
